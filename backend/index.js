@@ -7,7 +7,7 @@ require("dotenv").config();
 
 //VARIABLES
 const PORT= 5000 || process.env.PORT;
-const LINK="mongodb://localhost:27017/TO-DO-LIST"||process;
+const LINK=process.env.LINK;
 
 
 //MIDDLEWARE
